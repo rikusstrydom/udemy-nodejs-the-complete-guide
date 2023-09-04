@@ -15,7 +15,7 @@ const shopRoutes = require('./routes/shop');
 
 const errorController = require('./controllers/error');
 
-const MONGODB_URI = 'mongodb+srv://rikusstrydom:nodecomplete@cluster0.u1xpiz9.mongodb.net/shop?w=majority';
+const MONGODB_URI = 'mongodb+srv://rikusstrydom:@cluster0.u1xpiz9.mongodb.net/shop?w=majority';
 
 const app = express();
 const store = new MongoDBStore({
